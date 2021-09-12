@@ -22,7 +22,7 @@ async def _help(ult):
                 output = f"**Plugin** - `{plug}`\n"
                 for i in HELP[plug]:
                     output += i
-                output += "\n© @TeamUltroid"
+                output += "\n© @Geronimo1234"
                 await eor(ult, output)
             elif plug in CMD_HELP:
                 kk = f"Plugin Name-{plug}\n\n✘ Commands Available -\n\n"
